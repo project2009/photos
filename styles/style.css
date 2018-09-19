@@ -1,0 +1,451 @@
+@font-face {
+    font-family: "BPGBannerCaps";
+    src: url(../fonts/bpg_banner_caps.ttf);
+}
+
+
+@font-face {
+    font-family:  "BPGBannerExtraSquare";
+    src: url(../fonts/bpg_banner_extrasquare.ttf);
+}
+
+
+
+/* global */
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+.top50 { margin-top:50px; }
+.bottom15{margin-bottom: 15px;}
+
+
+
+body{
+   
+    font-family: "BPGBannerCaps";
+    padding: 0px;
+    margin:0px;
+    
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+}
+
+
+ .container-fluid{
+
+    padding:0px;
+
+} 
+
+
+
+
+.navbar, .navbar-default{
+
+        background-color: #333366;
+        
+    }
+
+
+
+.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+       
+
+    }
+    
+.navbar .navbar-collapse {
+        text-align: center;
+    }
+    
+
+.navbar-default .navbar-nav>li>a{
+
+
+color:#fff;
+    }
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #9797ca;
+        background-color: transparent;
+ }
+
+
+ .navbar-default .navbar-toggle .icon-bar {
+    background-color: #9797ca;
+}
+
+
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #9797ca;
+    background-color: transparent;
+}
+
+
+
+
+
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+height: auto;
+max-width: 100%;
+line-height: 1;
+width: 100%; 
+}
+
+
+
+/* centerText */
+
+
+.info p{
+    
+    max-width:700px;
+    font-family: "BPGBannerExtraSquare";
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+.info p span {
+
+    color: #9797ca;
+    font-weight: bold;
+}
+
+
+
+
+/* hover */
+
+
+
+.thumbnail:hover{
+    opacity: 0.7;    
+   }
+
+
+
+/* footer */
+
+#myFooter {
+    background-color: #333366;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    background-color: #9797ca;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #fff;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter ul li{
+   font-size: 12px;
+}
+
+
+#myFooter h5 {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#myFooter h2 a{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter h2 a span{
+    
+    color:#9797ca;
+}
+
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+#myFooter .btn {
+    color: white;
+    background-color: #9797ca;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    display: block;
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 5px 15px;
+}
+
+#myFooter .btn:hover {
+    border: 2px solid #d0caca;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+.glyphicon-chevron-up:hover{
+    opacity: 1;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+.glyphicon-chevron-up{
+    color: white;
+    /* background-color: #9797ca; */
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50%; 
+    opacity: 0.8;
+    border: 2px solid white;
+}
+
+
+/* modal */
+
+label{
+    color:#9797ca;
+}
+
+.modal-header h4{
+    color:#9797ca;
+
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    /* border-top: none; */
+}
+
+
+.mobile {
+    
+    display:none;
+}
+
+
+/* sideUl */
+
+.sideUl{
+    padding:0px;
+}
+
+
+
+.sideUl li{
+
+margin-top: 20px;
+list-style-type: none;
+font-weight: bold;
+
+}
+
+.sideUl li a{
+
+    color:#9797ca;
+    text-decoration: none;
+}
+
+.sideUl li a:hover{
+    
+        color:#333366;
+        
+    }
+
+#active{
+        
+            color:#333366;
+            
+        }
+ 
+
+
+/* styleforinnerpages */
+
+.jumbotron{
+
+    background-image: url("../images/banner2.png");
+    margin-bottom: 0;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color:white;
+    padding: 30px 0px;
+}
+
+
+  
+.jumbotron h2{
+
+    background-color: rgba(51, 51, 102, 0.7);
+    padding:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position:relative;
+    bottom:0px;
+    top:40px;
+   
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    
+    
+    
+    h1,h3{
+
+        font-size: 22px;
+    }
+    
+    
+    #myFooter {
+        text-align: center;
+    }
+
+    .logo1, .tel1, .h2{
+        float: none !important;
+        width:250px;
+        margin: auto;
+        text-align: center;
+        padding:10px 0px;
+        
+    }
+
+    .jumbotron h2{
+        
+            top:30px;
+            font-size:20px;
+           
+        }
+
+   
+
+
+    .mobile {
+        background-image: url("../images/slide2.png");
+        margin-bottom: 0;
+        min-height: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        display: block;
+        color:white;
+        padding: 30px 0px;
+        
+       
+    }
+
+
+    .lgscreens{
+
+        display:none;
+    }
+
+
+    .fixedMobile{
+
+        position: fixed;
+        right: 0;
+        left: 0;
+        top:0;
+        z-index: 10;
+    }
+
+    .marginTopMobile{
+
+        margin-top: 70px;
+    }
+
+
+    #myFooter .btn {
+        margin: 0 auto;
+    }
+
+   
+}
+
+
+/* footer */
+
+
+@media screen and (min-width:1250px){
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 14px 42px 7px 38px;
+    }
+
+
+}
+
+
+@media screen and (max-width:900px){
+    
+    .nav>li>a {
+      
+       padding-left:6px;
+       padding-right:6px;
+        }
+    
+    
+    }
+    
+
